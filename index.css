@@ -1,0 +1,106 @@
+.nav-item {
+  margin-left: 4rem;
+}
+.bannerBgImage {
+  height: 100vh;
+  background: url("/assests/laptop.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bannerText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bannerTitle {
+  font-size: 4rem;
+}
+
+.bannerDesc {
+  font-size: 2rem;
+}
+
+.txt {
+  font-size: 1.6rem;
+  line-height: 3.3rem;
+}
+
+.pav {
+  height: 30rem;
+  border-radius: 20px;
+}
+
+#skills {
+  margin: 1rem;
+}
+
+.cardTemplate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardTemplate img {
+  width: 12rem;
+  height: 12rem;
+  margin: 1rem;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 5px solid black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color:white;
+}
+
+.ftxt{
+    color: white;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+.carousel-inner img{
+    height:70vh;
+}
+
+.carousel-caption{
+    font-size: 2rem;
+}
+
+.gitsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.git{
+    width: 10rem;
+
+}
+
+.gittxt{
+    font-size: 2rem;
+}
