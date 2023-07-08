@@ -3,7 +3,7 @@
 }
 .bannerBgImage {
   height: 100vh;
-  background: url("/assests/laptop.jpg");
+  background: url("./assests/laptop.jpg");
   background-size: cover;
   position: relative;
 }
