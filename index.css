@@ -1,3 +1,7 @@
+*{
+
+}
+
 .nav-item {
   margin-left: 4rem;
 }
@@ -42,25 +46,28 @@
 .cardTemplate {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .cardTemplate img {
-  width: 12rem;
+  width: 15rem;
   height: 12rem;
-  margin: 1rem;
+  margin: 2rem;
+  text-align: center;
 }
 
-.card-text{
+/* .card-text{
     font-size: 1.2rem;
     margin-left: 1rem;
-}
+} */
 
 .card {
   border: 2px solid black;
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 5rem 3rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .card:hover {
